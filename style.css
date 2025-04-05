@@ -13,13 +13,9 @@ body {
     /*-webkit-filter: blur(2px);  
     filter: blur(2px);*/
  }
- 
- .photos_2 {
-  width: 10%;
-}
 
-.photos_3 {
-   width: 10%;
+.photos_1 {
+   width: 25%;
 }
  
  .version {
