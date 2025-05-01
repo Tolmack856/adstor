@@ -1,5 +1,5 @@
 body { 
-	 background: url(https://img1.akspic.ru/previews/3/4/2/8/7/178243/178243-vizualnoe_iskusstvo-risovanie-zhest-rastenie-seryj_cvet-x750.jpg);
+	 background: url(https://img3.akspic.ru/previews/3/7/1/9/7/179173/179173-sumrak-atmosfera-prirodnyj_landshaft-zakat-peyzash-500x.jpg);
 	background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
@@ -9,7 +9,7 @@ body {
   background-size: 100%;
 }
 .photos {
-   width: 10em;
+   width: 15em;
     /*-webkit-filter: blur(2px);  
     filter: blur(2px);*/
  }
@@ -42,21 +42,37 @@ body {
 	 color: yellow;
  }
  
- .button-90 {
-  color: yellow;
-  padding: 15px 25px;
-  border-radius: 100px;
-  background-color: indigo;
-  background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 87% at 26% 20%, rgba(255, 255, 255, 0.41) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
-  box-shadow: 2px 19px 31px rgba(0, 0, 0, 0.2);
-  font-weight: bold;
-  font-size: 16px;
-
-  border: 0;
-
+.button-74 {
+  background-color: black;
+  border: 2px solid #ff4500;
+  border-radius: 30px;
+  box-shadow: yellow 4px 4px 0 0;
+  color: #ff0000;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+}
 
-  cursor: pointer;
+.button-74:hover {
+  background-color: #fff;
+}
+
+.button-74:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
 }
