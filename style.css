@@ -37,7 +37,7 @@ body {
  
 .text_2 {
 	color: yellow;
-	-webkit-text-stroke: 1px #000;
+	-webkit-text-stroke: 0.5px #000;
  
  .text_3 {
 	 color: yellow;
