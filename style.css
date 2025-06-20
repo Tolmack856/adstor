@@ -1,5 +1,5 @@
 body { 
-	 background: url(https://img1.akspic.ru/previews/4/5/9/6/7/176954/176954-temnota-fraktalnoe_iskusstvo-purpur-fioletovyj-art-x750.jpg);
+	 background: url(https://img1.akspic.ru/previews/9/8/4/4/7/174489/174489-igra_v_kosti-kosti-belye-azartnaya_igra-rozovyj-500x.jpg);
 	background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
@@ -36,8 +36,8 @@ body {
  }
  
 .text_2 {
-	 color: yellow;
- }
+	color: yellow;
+	-webkit-text-stroke: 1px #000;
  
  .text_3 {
 	 color: yellow;
